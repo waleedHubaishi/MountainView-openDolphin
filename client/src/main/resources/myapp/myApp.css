@@ -1,0 +1,73 @@
+.root {
+    -fx-base : lightcoral;
+    -fx-background-color: linear-gradient(from 50% 0% to 50% 100%, #EF3B36 , papayawhip );
+}
+
+.rootPane {
+    -fx-padding : 10;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+
+.heading {
+    -fx-font-family: 'Helvetica Neue';
+    -fx-font-size: 72;
+    -fx-background-color: linear-gradient(from 50% 0% to 50% 100%, #papayawhip , floralwhite );
+    -fx-text-fill: navajowhite;
+    -fx-max-height: 1024;
+    -fx-max-width: 1024;
+}
+
+.text-field.dirty{
+    -fx-background-color: papayawhip;
+}
+
+.text-field.dirty.mandatory{
+    -fx-background-color: yellowgreen, papayawhip;
+    -fx-background-insets: 0, 2;
+}
+
+.text-field.invalid {
+    -fx-text-fill: red;
+}
+
+.text-field.mandatory {
+    -fx-background-color: yellowgreen, white;
+    -fx-background-insets: 0, 2;
+}
+
+.check-box.dirty > .box {
+    -fx-text-fill: red;
+    -fx-background-color: papayawhip;
+}
+
+.icon {
+    -fx-font-family: 'FontAwesome';
+    -fx-font-size: 24;
+}
+
+#idField
+{
+    -fx-font-size: 24;
+    -fx-font-family: 'FontAwesome';
+    -fx-text-fill: whitesmoke;
+}
+
+#buttonBox
+{
+    -fx-background-color: linear-gradient(from 50% 0% to 50% 100%, #ff7e5f , papayawhip );
+    -fx-max-width: 900;
+    -fx-border-radius: 5 10 0 0;
+    -fx-background-radius: 5 10 0 0;
+
+}
+
+#bolder
+{
+    -fx-text-fill: whitesmoke;
+    -fx-font-family: 'FontAwesome';
+    -fx-font-weight: bold;
+}
+
+
+
